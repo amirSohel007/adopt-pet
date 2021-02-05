@@ -18,29 +18,31 @@
 
     <b-row class="pt-4">
       <b-col v-for="(dog, index) in dogs" :key="index">
-       
-          <div class="pet-wrapper">
-             <router-link :to="`pets/dogs/${index}`">
-                <img :src="dog.image" class="w-100" />
-            </router-link>
-            <div class="pet-box-content">
-                <h5>Name: {{dog.name}}</h5>
-               <b-row>
-                 <b-col><p>Age: {{dog.age}}</p></b-col>
-                 <b-col>  <p>Color: {{dog.color}}</p></b-col>
-               </b-row>
+        <div class="pet-wrapper">
+          <router-link :to="`pets/dogs/${index}`">
+            <img :src="dog.image" class="w-100" />
+          </router-link>
+          <div class="pet-box-content">
+            <h5>Name: {{ dog.name }}</h5>
+            <b-row>
+              <b-col
+                ><p>Age: {{ dog.age }}</p></b-col
+              >
+              <b-col>
+                <p>Color: {{ dog.color }}</p></b-col
+              >
+            </b-row>
 
-                <b-row>
-                 <b-col>  <p>Weight: {{dog.weight}}</p></b-col>
-                 <b-col> <p>Gender: {{dog.gender}}</p> </b-col>
-               </b-row>
-              
-            
-             
-             
-            </div>
+            <b-row>
+              <b-col>
+                <p>Weight: {{ dog.weight }}</p></b-col
+              >
+              <b-col>
+                <p>Gender: {{ dog.gender }}</p>
+              </b-col>
+            </b-row>
           </div>
-     
+        </div>
       </b-col>
     </b-row>
   </b-container>

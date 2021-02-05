@@ -40,15 +40,15 @@ export default {
 
 h3 {
   text-align: left;
-    color: #282f4e;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 30px;
-    margin-bottom: 26px;
+  color: #282f4e;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 26px;
 }
 
 p {
-    text-align: left;
-    line-height: 28px;
+  text-align: left;
+  line-height: 28px;
 }
 </style>

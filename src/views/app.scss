@@ -29,20 +29,15 @@
 }
 
 .pet-details-information p {
-    text-align: center !important;
-    margin-bottom: 4px;
+	text-align: center !important;
+	margin-bottom: 4px;
 }
 
-
 .pet-wrapper img:hover {
-    transition: all 0.3s;
-    filter: hue-rotate(
-107deg
-);
+	transition: all 0.3s;
+	filter: hue-rotate(107deg);
 }
 
 .pet-wrapper img {
-    transition: all 0.3s;
+	transition: all 0.3s;
 }
-
-

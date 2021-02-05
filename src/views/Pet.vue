@@ -6,9 +6,9 @@
     </h2>
     <p>Age: {{ petDetails.age }} Years old</p>
     <p>Breed: {{ petDetails.breed }}</p>
-     <p>Gender: {{ petDetails.gender }} Years old</p>
+    <p>Gender: {{ petDetails.gender }} Years old</p>
     <p>Color: {{ petDetails.color }}</p>
-     <p>Weight: {{ petDetails.weight }}</p>
+    <p>Weight: {{ petDetails.weight }}</p>
   </div>
 </template>
 
